@@ -27,6 +27,7 @@ div button{
     color: white;
     opacity: 0.8;
     outline: none;
+    transition: .4s ease-out;
 }
 
 div button:hover{
