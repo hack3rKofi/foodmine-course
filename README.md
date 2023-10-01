@@ -32,6 +32,19 @@
    iii. Show search result in Home component
    iv. Generate search component  
     a. Add to home component
-    b. Add ts
-    c. Add html
-    d. Add css
+   b. Add ts
+   c. Add html
+   d. Add css
+
+7. Tags Bar
+   i. Create Tag model
+   ii. Add sample tags to data.ts
+   iii. Food Service
+   a. Add get all tags method
+   b. Add get all foods by tage method
+   iv. Add tags route
+   v. show tag result in Home component
+   vi. Generate Tags component
+   a. Add to home component
+   b. Add ts
+   c. Add css

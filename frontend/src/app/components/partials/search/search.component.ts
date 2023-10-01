@@ -14,9 +14,10 @@ export class SearchComponent {
     });
   }
 
+  //search function
   search(term: string): void {
     if (term) {
-      this.router.navigateByUrl('/search/' + term);
+      this.router.navigateByUrl(`/search/${term}`);
     } else {
       this.router.navigateByUrl('/');
     }
