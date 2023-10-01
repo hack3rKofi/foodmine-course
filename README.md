@@ -57,3 +57,42 @@
       3. Add html
       4. Add css
  
+
+9. Cart Page
+   i.  Create CartItem Model
+   ii. Create Cart Model
+   iii. Generate Cart service
+   iv.  Add to Cart Button in Food Page
+   v. Generate Cart page component
+      a. Add Route
+      b. Add ts
+      c. Add html
+      d. Add css
+
+10. Not Found!
+   i. Generate Component
+      a. Add ts
+      b. Add html
+      c. Add css
+   ii. Add To Pages
+      a. Home Page
+      b. Food Page
+      c. Cart Page
+
+
+11. Connect To Backend
+   i. create backend folder
+   ii. npm init
+   iii. npm install typescript
+   iv. create tsconfig.json
+   v. create .gitignore
+   vi. copy data.js to backend/src
+   vii. npm install express cors
+   viii. create server.ts
+      a. install @types
+      b. Add Apis
+   
+   xi. npm install nodemon ts-node --save-dev
+   x. Add urs.ts to frontend
+   xi. Add HttpClient module
+   xii. Update food Service

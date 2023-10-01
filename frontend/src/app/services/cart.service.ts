@@ -27,7 +27,6 @@ export class CartService {
   changeQuantity(foodId: string, quantity: number) {
     let cartItem = this.cart.items.find((item) => item.food.id === foodId);
     if (!cartItem) return;
-
     cartItem.quantity = quantity;
     cartItem.price = quantity * cartItem.food.price;
     this.setCartToLocalStorage();
@@ -54,7 +53,6 @@ export class CartService {
     );
 
     const cartJson = JSON.stringify(this.cart);
-    console.log(cartJson)
     localStorage.setItem('Cart', cartJson);
     this.cartSubject.next(this.cart);
   }
