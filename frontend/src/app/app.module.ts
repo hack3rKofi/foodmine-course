@@ -1,4 +1,4 @@
-import { LOCALE_ID, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/partials/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { StarRatingComponent } from './components/partials/star-rating/star-rating.component';
+import { AppRoutingModule } from './app-routing.module';
+import { SearchComponent } from './components/partials/search/search.component';
 
 @NgModule({
   declarations: [
@@ -13,9 +15,10 @@ import { StarRatingComponent } from './components/partials/star-rating/star-rati
     HeaderComponent,
     HomeComponent,
     StarRatingComponent,
+    SearchComponent,
   ],
 
-  imports: [BrowserModule, RouterModule.forRoot([])],
+  imports: [BrowserModule,AppRoutingModule],
 
   providers: [],
   bootstrap: [AppComponent],
